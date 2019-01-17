@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bookmarker Application</title>
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body onload="fetchBookmarks()">
+	<h3>Bookmarker Application</h3>
+
+
+	<form id = "myform" class="col-lg-6">
+  <div class="form-group col-lg-6">
+    <label for="siteName">Site Name</label>
+    <input type="text" class="form-control" id="siteName"  placeholder="Enter site Name Here">
+  </div>
+  <div class="form-group col-lg-6">
+    <label for="siteUrl">URL</label>
+    <input type="text" class="form-control" id="siteUrl" placeholder="Url Here">
+  </div>
+  <button type="submit" id= "submit" class="btn btn-primary text-justify">Submit</button>
+</form>
+		<div id="BookmarkerSites">
+
+		</div>
+
+
+
+
+<footer class="footer">
+	<p>&copy, 2018 Bookmarker</p>
+</footer>
+
+
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>

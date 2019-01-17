@@ -1,0 +1,23 @@
+
+
+h3 {
+	text-align: center;
+}
+
+
+form  ,footer {
+	padding: 20px;
+	margin-left : 150px;
+	align-self: center;
+
+}
+#myform{
+	background-color: #F0E7E7;
+}
+
+
+ 
+#BookmarkerSites {
+	background-color: #F0E7E7;
+	margin:  60px;
+}
